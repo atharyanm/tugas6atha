@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+    <style>
+        .container {
+          display: flex;
+          align-items: center;
+        }
+        .profile-image {
+          border: 2px solid #000;
+          margin-right: 20px;
+        }
+        .bio {
+          border: 2px solid #000;
+          padding: 10px;
+        }
+      </style>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sidebar">
+                    <h2>Atha</h2>
+                    <ul class="nav flex-column nav-pills">
+                        <li class="nav-item my-sm-2">
+                            <a class="nav-link" href="index.html">Beranda</a>
+                        </li>
+                        <li class="nav-item my-sm-2">
+                            <a class="nav-link active" href="biodata.html">Biodata</a>
+                        </li>
+                        <li class="nav-item my-sm-2">
+                            <a class="nav-link" href="jadwal.html">Jadwal Kuliah</a>
+                        </li>
+                        <li>
+                            <form>
+                                <input class="form-control my-sm-0" type="search" placeholder="Cari informasi" aria-label="Search">
+                                <button class="btn btn-primary" type="submit">Cari informasi</button>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <h1>Biodata Atha</h1>
+                <div class="container">
+                    <img src="img/profil.jpg" alt="Foto Profil" class="profile-image" height="200">
+                    <div class="bio">
+                      <h2>Nama: Ryan Atha Muyassar</h2>
+                      <p>Umur: 19 tahun</p>
+                      <p>Alamat: Jl. Grajegan No. 123</p>
+                      <p>Pendidikan: S1 Sistem Informasi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
